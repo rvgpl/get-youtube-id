@@ -1,7 +1,3 @@
-# Typescript library Starter Template
+# getYouTubeID
 
-Yet another typescript library starter template to quickly publish packages to npm
-
-- Typescript
-- Jest
-- Prettier
+A simple function to extract id from a Youtube URL
