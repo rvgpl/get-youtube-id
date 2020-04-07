@@ -1,7 +1,7 @@
 {
-  "name": "@rvgpl/typescript-library-starter",
+  "name": "@rvgpl/get-youtube-id",
   "version": "1.0.0",
-  "description": "Just another typescript library starter",
+  "description": "A simple function to extract id from a Youtube URL",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rvgpl/typescript-library-starter.git"
+    "url": "https://github.com/rvgpl/get-youtube-id.git"
   },
   "scripts": {
     "test": "jest --config jestconfig.json --watchAll",
@@ -18,7 +18,10 @@
     "build": "npm run clean && tsc",
     "publish": "npm run build && npm publish --access public"
   },
-  "keywords": [],
+  "keywords": [
+    "youtube",
+    "id"
+  ],
   "author": "Ravigopal Kesari",
   "license": "MIT",
   "devDependencies": {
